@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "behaviorbucks",
+    "slug": "behaviorbucks",
+    "scheme": "t4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.t4.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.t4.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8377b9f-cf63-48ef-9c22-96bd46599703"
+      }
+    },
+    "owner": "robomatic",
+    "plugins": ["expo-router"],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
+  }
+}
